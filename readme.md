@@ -47,6 +47,16 @@ This project performs customer segmentation on a credit card dataset to identify
 - Created bar charts to compare feature averages across clusters.
 - Used pie charts to show cluster size distribution for easy stakeholder communication.
 
+
+## Customer Segment Profiles
+
+| Cluster | Average Balance | Average Purchases | Cash Advance | Credit Utilization | Payment to Balance Ratio | Description                          | Number of Customers |
+|---------|-----------------|-------------------|--------------|--------------------|--------------------------|------------------------------------|---------------------|
+| 0       | 6008            | 3280              | 4531         | 0.59               | 12.18                    | High Balance and Cash Advance Users; indicating possible high credit usage but risk | 774                 |
+| 1       | 341             | 1060              | 83           | 0.08               | 31.13                    | Loyal Spenders with lower balances and frequent payments, good payback behavior | 4006                |
+| 2       | 1895            | 57                | 1739         | 0.59               | 3.78                     | Low Purchases but high cash advances, possibly credit revolvers | 2143                |
+| 3       | 1937            | 1021              | 587          | 0.71               | 1.01                     | Moderate users with relatively high credit utilization but lower payment ratios | 2027                |
+
 ***
 
 ## How to Run This Project
